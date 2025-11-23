@@ -1,2 +1,2 @@
 # ds_Devendra_Chouhan
-Analysing Trading behavior in crpto
+ Web3 Trading Team - Data Science Assignment
