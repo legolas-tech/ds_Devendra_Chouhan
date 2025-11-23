@@ -1,22 +1,20 @@
 # ds_Devendra_Chouhan
- Web3 Trading Team - Data Science Assignment
 
-This directory includes a few sample datasets to get you started.
+Project: Web3 Trading Team - Data Science Assignment
 
-*   `california_housing_data*.csv` is California housing data from the 1990 US
-    Census; more information is available at:
-    https://docs.google.com/document/d/e/2PACX-1vRhYtsvc5eOR2FWNCwaBiKL6suIOrxJig8LcSBbmCbyYsayia_DvPOOBlXZ4CAlQ5nlDD8kTaIDRwrN/pub
+## Contents
+- `notebook_1.ipynb` : Main Colab notebook with EDA, stats, and modeling.
+- `csv_files/` : Contains merged daily CSVs, models, and feature importance.
+- `outputs/` : Saved plot images referenced in the report.
+- `ds_report.pdf` : Final summarized insights (submit filled).
+- `README.md` : This file.
 
-*   `mnist_*.csv` is a small sample of the
-    [MNIST database](https://en.wikipedia.org/wiki/MNIST_database), which is
-    described at: http://yann.lecun.com/exdb/mnist/
+## How to run
+1. Open `notebook_1.ipynb` in Google Colab.
+2. Mount Google Drive when prompted.
+3. Run all cells.
 
-*   `anscombe.json` contains a copy of
-    [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet); it
-    was originally described in
-
-    Anscombe, F. J. (1973). 'Graphs in Statistical Analysis'. American
-    Statistician. 27 (1): 17-21. JSTOR 2682899.
-
-    and our copy was prepared by the
-    [vega_datasets library](https://github.com/altair-viz/vega_datasets/blob/4f67bdaad10f45e3549984e17e1b3088c731503d/vega_datasets/_data/anscombe.json).
+## Notes
+- All visual outputs are saved to `outputs/`.
+- All CSVs and intermediate files are saved to `csv_files/`.
+- The code uses `gdown` to download the datasets from the Google Drive IDs provided in the assignment instructions.
